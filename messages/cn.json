@@ -1,6 +1,6 @@
 {
   "SiteName": {
-    "name": "HippoxOS"
+    "name": "Basenest SaaS Management System"
   },
   "Navigation": {
     "home": "首页",
@@ -9,7 +9,7 @@
     "github": "GitHub"
   },
   "HomePage": {
-    "hero": "HippoxOS",
+    "hero": "Basenest SaaS Management System",
     "tagline": "AI 驱动的智能工作台 · 通过对话完成视频编辑、3D创作、代码开发与数据分析",
     "cta": "立即体验",
     "docs": "查看文档",
@@ -77,7 +77,7 @@
   "Header": {
     "docs": "文档",
     "github": "GitHub",
-    "aiRuntime": "HippoxOS",
+    "aiRuntime": "Basenest SaaS Management System",
     "languageLabel": "中文",
     "languageEn": "EN"
   }

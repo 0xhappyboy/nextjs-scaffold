@@ -29,29 +29,29 @@ export default function Footer() {
       links: [
         {
           label: isCn ? "文档" : "Documentation",
-          href: "https://hippoxos-docs.vercel.app/en",
+          href: "",
         },
-        { label: "GitHub", href: "https://github.com/HippoxHQ/hippoxOS" },
-        { label: "Hugging Face", href: "https://huggingface.co/HippoxHQ" },
-        { label: isCn ? "博客" : "Blog", href: "https://hippox.medium.com/" },
+        { label: "GitHub", href: "" },
+        { label: "Hugging Face", href: "" },
+        { label: isCn ? "博客" : "Blog", href: "" },
       ],
     },
     {
       title: isCn ? "社区" : "Community",
       links: [
         { label: "Discord", href: "https://discord.gg/R7hrkJRAdE" },
-        { label: "X", href: "https://x.com/HippoxAI" },
+        { label: "X", href: "" },
         {
           label: "Bluesky",
-          href: "https://bsky.app/profile/hippoxai.bsky.social",
+          href: "",
         },
         { label: "Telegram", href: "https://t.me/hippoxAI" },
-        { label: "YouTube", href: "https://www.youtube.com/@HippoxOS" },
+        { label: "YouTube", href: "" },
         {
           label: "Facebook",
-          href: "https://www.facebook.com/groups/5510896799134952",
+          href: "",
         },
-        { label: "Reddit", href: "https://www.reddit.com/r/Hippox/" }, // Add Reddit link
+        { label: "Reddit", href: "" }, // Add Reddit link
       ],
     },
     {
@@ -60,7 +60,7 @@ export default function Footer() {
         { label: isCn ? "关于我们" : "About Us", href: "#" },
         {
           label: isCn ? "开源协议" : "License",
-          href: "https://github.com/HippoxHQ/hippoxOS/blob/main/LICENSE",
+          href: "",
         },
         { label: isCn ? "隐私政策" : "Privacy", href: "#" },
         { label: isCn ? "联系方式" : "Contact", href: "#" },
@@ -69,44 +69,44 @@ export default function Footer() {
   ];
   // All social links - matches Header.tsx exactly
   const socialLinks = [
-    { icon: XIcon, href: "https://x.com/HippoxAI", label: "X" },
+    { icon: XIcon, href: "", label: "X" },
     {
       icon: YouTubeIcon,
-      href: "https://www.youtube.com/@HippoxOS",
+      href: "",
       label: "YouTube",
     },
     {
       icon: HuggingFaceIcon,
-      href: "https://huggingface.co/HippoxHQ",
+      href: "",
       label: "Hugging Face",
     },
     {
       icon: FacebookIcon,
-      href: "https://www.facebook.com/groups/5510896799134952",
+      href: "",
       label: "Facebook",
     },
-    { icon: GitHubIcon, href: "https://github.com/HippoxHQ", label: "GitHub" },
+    { icon: GitHubIcon, href: "", label: "GitHub" },
     {
       icon: BlueskyIcon,
-      href: "https://bsky.app/profile/hippoxai.bsky.social",
+      href: "",
       label: "Bluesky",
     },
     {
       icon: MediumIcon,
-      href: "https://hippox.medium.com/",
+      href: "",
       label: "Medium",
       size: 16,
     },
     {
       icon: DiscordIcon,
-      href: "https://discord.gg/R7hrkJRAdE",
+      href: "",
       label: "Discord",
       size: 16,
     },
-    { icon: Send, href: "https://t.me/hippoxAI", label: "Telegram" },
+    { icon: Send, href: "", label: "Telegram" },
     {
       icon: RedditIcon,
-      href: "https://www.reddit.com/r/Hippox/",
+      href: "",
       label: "Reddit",
     }, // Add Reddit social link
   ];
@@ -164,15 +164,14 @@ export default function Footer() {
           {/* Copyright info */}
           <div className="flex flex-col items-center sm:items-end gap-1 text-[10px] text-foreground/35">
             <div className="flex items-center gap-2">
-              <span className="font-medium tracking-wide">HippoxOS</span>
+              <span className="font-medium tracking-wide">Basenest SaaS Management System</span>
               <span className="text-foreground/15">·</span>
-              <span>{isCn ? "LLM 原生操作系统" : "LLM-Native OS"}</span>
+              <span>{isCn ? "Basenest Saas 管理系统" : "Basenest SaaS Management System"}</span>
             </div>
             <div className="flex items-center gap-1.5">
               <span>© {new Date().getFullYear()}</span>
               <span>·</span>
-              <a
-                href="https://github.com/HippoxHQ/hippoxOS/blob/main/LICENSE"
+              <a 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-foreground/60 transition-colors"

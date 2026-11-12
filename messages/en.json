@@ -1,6 +1,6 @@
 {
   "SiteName": {
-    "name": "HippoxOS"
+    "name": "Basenest SaaS Management System"
   },
   "Navigation": {
     "home": "Home",
@@ -9,7 +9,7 @@
     "github": "GitHub"
   },
   "HomePage": {
-    "hero": "HippoxOS",
+    "hero": "Basenest SaaS Management System",
     "tagline": "An AI-powered intelligent workbench — edit videos, build 3D scenes, develop code, and analyze data through conversation.",
     "cta": "Get Started",
     "docs": "Read Docs",
@@ -81,7 +81,7 @@
   "Header": {
     "docs": "Docs",
     "github": "GitHub",
-    "aiRuntime": "HippoxOS",
+    "aiRuntime": "Basenest SaaS Management System",
     "languageLabel": "EN",
     "languageEn": "EN"
   }

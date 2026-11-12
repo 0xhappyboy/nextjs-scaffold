@@ -50,38 +50,38 @@ export default function Header() {
   };
   // Social link handlers
   const handleGithubClick = () => {
-    window.open("https://github.com/HippoxHQ", "_blank");
+    window.open("/", "_blank");
   };
   const handleHuggingFaceClick = () => {
-    window.open("https://huggingface.co/HippoxHQ", "_blank");
+    window.open("/", "_blank");
   };
   const handleXClick = () => {
-    window.open("https://x.com/HippoxAI", "_blank");
+    window.open("/", "_blank");
   };
   const handleYouTubeClick = () => {
-    window.open("https://www.youtube.com/@HippoxOS", "_blank");
+    window.open("/", "_blank");
   };
   const handleBlueskyClick = () => {
-    window.open("https://bsky.app/profile/hippoxai.bsky.social", "_blank");
+    window.open("/", "_blank");
   };
   const handleMediumClick = () => {
-    window.open("https://hippox.medium.com/", "_blank");
+    window.open("/", "_blank");
   };
   const handleDiscordClick = () => {
-    window.open("https://discord.gg/R7hrkJRAdE", "_blank");
+    window.open("/", "_blank");
   };
   const handleTelegramClick = () => {
-    window.open("https://t.me/hippoxAI", "_blank");
+    window.open("/", "_blank");
   };
   const handleCargoClick = () => {
-    window.open("https://crates.io/crates/hippox", "_blank");
+    window.open("/", "_blank");
   };
   const handleFacebookClick = () => {
-    window.open("https://www.facebook.com/groups/5510896799134952", "_blank");
+    window.open("/", "_blank");
   };
   // Reddit click handler
   const handleRedditClick = () => {
-    window.open("https://www.reddit.com/r/Hippox/", "_blank");
+    window.open("/", "_blank");
   };
   // WeChat popup handlers
   const handleWechatMouseEnter = () => {
@@ -117,13 +117,9 @@ export default function Header() {
             className="flex items-center gap-2 cursor-pointer"
             onClick={() => (window.location.href = "/")}
           >
-            <img
-              src="/logo.jpeg"
-              alt="HippoxOS Logo"
-              className="w-7 h-7 rounded object-cover"
-            />
+            <img src="/logo.jpeg" className="w-7 h-7 rounded object-cover" />
             <span className="font-bold text-foreground text-base">
-              HippoxOS
+              Basenest SaaS Management System
             </span>
           </div>
         </div>
